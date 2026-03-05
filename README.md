@@ -41,8 +41,6 @@ We fine-tune **Flan-T5-base** on the provided counterfactual sentence pairs usin
 ├── task_b_training.py    # Training pipeline for Task 2
 ├── submission.py        # Inference and submission generation
 ├── requirements.txt            # Dependencies
-├── submissions/
-│   └── Pranav_Task2_English.csv  # Our submission file
 └── README.md
 ```
 
