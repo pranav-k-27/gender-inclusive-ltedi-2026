@@ -37,9 +37,9 @@ We fine-tune **Flan-T5-base** on the provided counterfactual sentence pairs usin
 ## 📁 Repository Structure
 
 ```
-├── part6_data_loading.py       # Data loading and preprocessing
-├── part8_task_b_training.py    # Training pipeline for Task 2
-├── part10_submission.py        # Inference and submission generation
+├── data_loading.py       # Data loading and preprocessing
+├── task_b_training.py    # Training pipeline for Task 2
+├── submission.py        # Inference and submission generation
 ├── requirements.txt            # Dependencies
 ├── submissions/
 │   └── Pranav_Task2_English.csv  # Our submission file
@@ -60,13 +60,13 @@ Download the dataset from Codabench and place in `./data/` directory.
 
 ### 3. Train Model
 ```bash
-python part6_data_loading.py
-python part8_task_b_training.py
+python data_loading.py
+python task_b_training.py
 ```
 
 ### 4. Generate Predictions
 ```bash
-python part10_submission.py
+python submission.py
 ```
 
 ---
